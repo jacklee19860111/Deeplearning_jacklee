@@ -1,0 +1,29 @@
+python num_reco_NeuNet.py 
+/home/jacklee/anaconda2/lib/python2.7/site-packages/sklearn/cross_validation.py:41: DeprecationWarning: This module was deprecated in version 0.18 in favor of the model_selection module into which all the refactored classes and functions are moved. Also note that the interface of the new CV iterators are different from that of this module. This module will be removed in 0.20.
+  "This module will be removed in 0.20.", DeprecationWarning)
+start fitting
+[[47  0  0  0  0  0  0  0  0  0]
+ [ 0 32  2  0  0  0  0  0  0  3]
+ [ 0  0 43  0  0  0  0  0  0  0]
+ [ 0  0  1 33  0  1  0  1  0  0]
+ [ 0  0  0  0 40  0  0  1  1  0]
+ [ 0  0  0  0  0 49  1  0  0  1]
+ [ 0  0  0  0  0  0 47  0  0  0]
+ [ 0  0  0  0  1  1  0 48  0  1]
+ [ 0  3  2  0  0  0  0  0 34  0]
+ [ 0  0  0  0  0  2  0  0  1 54]]
+             precision    recall  f1-score   support
+
+          0       1.00      1.00      1.00        47
+          1       0.91      0.86      0.89        37
+          2       0.90      1.00      0.95        43
+          3       1.00      0.92      0.96        36
+          4       0.98      0.95      0.96        42
+          5       0.92      0.96      0.94        51
+          6       0.98      1.00      0.99        47
+          7       0.96      0.94      0.95        51
+          8       0.94      0.87      0.91        39
+          9       0.92      0.95      0.93        57
+
+avg / total       0.95      0.95      0.95       450
+
